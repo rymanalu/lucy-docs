@@ -61,3 +61,13 @@ And the credential of the default user is:
 ```
 username: admin password: lucy12345
 ```
+
+<a name="application-url"></a>
+### Application URL
+
+Because Laravel only allow HTTP access to `public` folder, you must change the document root inside **nginx** or **Apache** configuration files, to point to your `public` directory.
+
+And here is the references that will help you:
+- [Apache](http://stackoverflow.com/questions/5891802/how-do-i-change-the-root-directory-of-an-apache-server)
+    - [Create Apache Virtual Host](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+- [nginx](http://nginx.org/en/docs/beginners_guide.html)
