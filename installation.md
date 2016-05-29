@@ -56,7 +56,7 @@ The installation is success. Click `Click here to exit` and you will redirect to
 
 ![alt text](http://s33.postimg.org/6j5lsz38f/05_install.png "Finished")
 
-And the default user is:
+And the credential of the default user is:
 
 ```
 username: admin password: lucy12345
