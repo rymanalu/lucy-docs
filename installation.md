@@ -34,7 +34,7 @@ The installation wizard will displayed when you access Lucy for the first time. 
 
 #### Step 2 - Environment Settings
 
-We use `.env` file to save the base environment settings. Go to `DB_` section and ignore the others. Set your database settings for your application (See the image below for example). After that, click `Save .env` and click `Next Step` to continue.
+We use `.env` file to save the base environment settings. Go to `DB_` section and ignore the others. Set your database settings for your application (see the image below for example). After that, click `Save .env` and click `Next Step` to continue.
 
 ![alt text](http://s33.postimg.org/6jvbxxfrz/02_install.png "Environment Settings")
 
@@ -59,5 +59,5 @@ The installation is success. Click `Click here to exit` and you will redirect to
 And the default user is:
 
 ```
-**username**: admin **password**: lucy12345
+username: admin password: lucy12345
 ```
