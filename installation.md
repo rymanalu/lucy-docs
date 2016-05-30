@@ -30,31 +30,31 @@ The foundation of Lucy, [Laravel](https://laravel.com), is designed to allow HTT
 
 The installation wizard will displayed when you access Lucy for the first time. Click `Next Step` to continue.
 
-![alt text](http://s33.postimg.org/efa073xun/01_install.png "Welcome Screen")
+<img src="/storage/installs/01-install.png" alt="Welcome Screen" class="img-responsive img-rounded">
 
 #### Step 2 - Environment Settings
 
-We use `.env` file to save the base environment settings. Go to `DB_` section and ignore the others. Set your database settings for your application (see the image below for example). After that, click `Save .env` and click `Next Step` to continue.
+We use `.env` file to save the base environment settings. Go to `DB_*` section and ignore the others. Set your database settings for your application (see the image below for example). After that, click `Save .env` and click `Next Step` to continue.
 
-![alt text](http://s33.postimg.org/6jvbxxfrz/02_install.png "Environment Settings")
+<img src="/storage/installs/02-install.png" alt="Environment Settings" class="img-responsive img-rounded">
 
 #### Step 3 - Requirements
 
 Lucy will check if your server meets the Lucy system requirements. Click `Next Step` to continue (if all requirements is pass).
 
-![alt text](http://s33.postimg.org/nf6slxtzz/03_install.png "Requirements")
+<img src="/storage/installs/03-install.png" alt="Requirements" class="img-responsive img-rounded">
 
 #### Step 4 - Permissions
 
 Lucy will check if the following folders is writable by your web server. Click `Next Step` to continue.
 
-![alt text](http://s33.postimg.org/npa6ax067/04_install.png "Permissions")
+<img src="/storage/installs/04-install.png" alt="Permissions" class="img-responsive img-rounded">
 
 #### Step 5 - Finished
 
 The installation is success. Click `Click here to exit` and you will redirect to login page.
 
-![alt text](http://s33.postimg.org/6j5lsz38f/05_install.png "Finished")
+<img src="/storage/installs/05-install.png" alt="Finished" class="img-responsive img-rounded">
 
 And the credential of the default user is:
 
