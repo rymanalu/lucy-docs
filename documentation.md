@@ -1,0 +1,2 @@
+- Setup
+    - [Installation](/docs/{{version}}/installation)
