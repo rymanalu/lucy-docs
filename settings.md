@@ -21,7 +21,18 @@ Here, we will show you how to get the social media app credentials.
 <a name="socialite-facebook"></a>
 #### Facebook
 
-You can find a detailed explanation from Facebook [here](https://developers.facebook.com/docs/apps/register). Make sure you that you have entered correct application domain on application's settings page.
+You can find a detailed explanation from Facebook [here](https://developers.facebook.com/docs/apps/register). Or you can follow our steps:
+
+1. Go to [https://developers.facebook.com/apps/](https://developers.facebook.com/apps/) and click **Create a New App**.
+<img src="/storage/docs/01-fb.jpeg" class="img-responsive img-rounded">
+2. Fill all the required fields and click **Create App ID**.
+<img src="/storage/docs/02-fb.jpeg" class="img-responsive img-rounded">
+3. Click **Get Started** in **Facebook Login** section.
+<img src="/storage/docs/03-fb.jpeg" class="img-responsive img-rounded">
+4. In **Client OAuth Settings**, fill **Valid OAuth redirect URIs** like this: `http://yourdomain.com/auth/socialite/login/facebook`. Then, **Save Changes**.
+<img src="/storage/docs/04-fb.jpeg" class="img-responsive img-rounded">
+5. Go to **Dashboard** to get your **App ID** and **App Secret**.
+<img src="/storage/docs/05-fb.jpeg" class="img-responsive img-rounded">
 
 <a name="socialite-google"></a>
 #### Google+

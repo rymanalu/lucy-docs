@@ -24,43 +24,39 @@ Before we begin, make sure your server meets the following requirements:
 
 First, download Lucy and extract it into your web server folder (example for Apache: `/var/www/html`). After that, create the database in **MySQL**.  Let's say, you create the database named **lucy**.
 
-#### Step 1 - Welcome Screen
+1. Welcome Screen
 
-The foundation of Lucy, [Laravel](https://laravel.com), is designed to allow HTTP access to the application from your `public` folder only. It means that Lucy will be available at `yourdomain.com/public`. However, for production you will probably want to have your application available at `yourdomain.com`. In [next section](#application-url), we will show you how to accomplish that.
+   The foundation of Lucy, [Laravel](https://laravel.com), is designed to allow HTTP access to the application from your `public` folder only. It means that Lucy will be available at `yourdomain.com/public`. However, for production you will probably want to have your application available at `yourdomain.com`. In [next section](#application-url), we will show you how to accomplish that.
 
-The installation wizard will displayed when you access Lucy for the first time. Click `Next Step` to continue.
+   The installation wizard will displayed when you access Lucy for the first time. Click `Next Step` to continue.
+<img src="/storage/docs/01-install.png" alt="Welcome Screen" class="img-responsive img-rounded">
 
-<img src="/storage/installs/01-install.png" alt="Welcome Screen" class="img-responsive img-rounded">
+2. Environment Settings
 
-#### Step 2 - Environment Settings
+   We use `.env` file to save the base environment settings. Go to `DB_*` section and ignore the others. Set your database settings for your application (see the image below for example).
 
-We use `.env` file to save the base environment settings. Go to `DB_*` section and ignore the others. Set your database settings for your application (see the image below for example). After that, click `Save .env` and click `Next Step` to continue.
+   After that, click `Save .env` and click `Next Step` to continue.
+<img src="/storage/docs/02-install.png" alt="Environment Settings" class="img-responsive img-rounded">
 
-<img src="/storage/installs/02-install.png" alt="Environment Settings" class="img-responsive img-rounded">
+3. Requirements
 
-#### Step 3 - Requirements
+   Lucy will check if your server meets the Lucy system requirements. Click `Next Step` to continue (if all requirements is pass).
+<img src="/storage/docs/03-install.png" alt="Requirements" class="img-responsive img-rounded">
 
-Lucy will check if your server meets the Lucy system requirements. Click `Next Step` to continue (if all requirements is pass).
+4. Permissions
 
-<img src="/storage/installs/03-install.png" alt="Requirements" class="img-responsive img-rounded">
+   Lucy will check if the following folders is writable by your web server. Click `Next Step` to continue.
+<img src="/storage/docs/04-install.png" alt="Permissions" class="img-responsive img-rounded">
 
-#### Step 4 - Permissions
+5. Finished
 
-Lucy will check if the following folders is writable by your web server. Click `Next Step` to continue.
+   The installation is success. Click `Click here to exit` and you will redirect to login page.
+<img src="/storage/docs/05-install.png" alt="Finished" class="img-responsive img-rounded">
 
-<img src="/storage/installs/04-install.png" alt="Permissions" class="img-responsive img-rounded">
-
-#### Step 5 - Finished
-
-The installation is success. Click `Click here to exit` and you will redirect to login page.
-
-<img src="/storage/installs/05-install.png" alt="Finished" class="img-responsive img-rounded">
-
-And the credential of the default user is:
-
-```
-username: admin password: lucy12345
-```
+   And the credential of the default user is:
+   ```
+   username: admin password: lucy12345
+   ```
 
 <a name="application-url"></a>
 ### Application URL
