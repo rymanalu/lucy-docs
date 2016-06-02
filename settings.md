@@ -37,15 +37,36 @@ You can find a detailed explanation from Facebook [here](https://developers.face
 <a name="socialite-google"></a>
 #### Google+
 
-First, go to [https://console.developers.google.com/project](https://console.developers.google.com/projet) and click **Create Project**.
+In order to get Google **APP ID ** and **APP Secret**, you must have a **Google Account**.
 
-And now, you will be able to enable Google+ API by click **Google+ API** and click **Enable**.
-
-Go to credentials button and complete the form. After that, enter your `http://yourdomain.com` in **Authorized JavaScript origins** section and `http://yourdomain.com/socialite/login/google` in **Authorized redirect URIs** section.
-
-Create the client ID and get your credentials.
+1. Go to [https://console.developers.google.com/](https://console.developers.google.com/). Click **My Project** and click **Create a project...**.
+<img src="/storage/docs/01-google.jpeg" class="img-responsive img-rounded">
+2. Fill the required fields and click **Create**.
+<img src="/storage/docs/02-google.jpeg" class="img-responsive img-rounded">
+3. After that, click **Google+ API** in **Social APIs** section.
+<img src="/storage/docs/03-google.jpeg" class="img-responsive img-rounded">
+4. **Enable** the API.
+<img src="/storage/docs/04-google.jpeg" class="img-responsive img-rounded">
+5. Go to Credentials.
+<img src="/storage/docs/05-google.jpeg" class="img-responsive img-rounded">
+6. Fill the form like this and click **What credentials do I need?**.
+<img src="/storage/docs/06-google.jpeg" class="img-responsive img-rounded">
+7. Create the **OAuth Client**. The **Authorized redirect URIs** is like this: `http://yourdomain.com/auth/socialite/login/google`.
+<img src="/storage/docs/07-google.jpeg" class="img-responsive img-rounded">
+8. Setup the OAuth consent screen.
+<img src="/storage/docs/08-google.jpeg" class="img-responsive img-rounded">
+9. Download your credentials and click **Done**.
+<img src="/storage/docs/09-google.jpeg" class="img-responsive img-rounded">
+10. Open the file and fill the **APP ID** and **APP Secret** in **Google+** socialite. Or you can click **Credentials** in your **Google APIs** and click the project name.
+<img src="/storage/docs/10-google.jpeg" class="img-responsive img-rounded">
+11. And then, copy the credentials.
+<img src="/storage/docs/11-google.jpeg" class="img-responsive img-rounded">
 
 <a name="socialite-twitter"></a>
 #### Twitter
 
-Create the your Twitter app [here](https://apps.twitter.com/), and fill all required fields. Remember, your callback URI is `http://yourdomain.com/socialite/login/twitter`!
+1. Go to [https://apps.twitter.com/](https://apps.twitter.com/) and click **Create New App**.
+<img src="/storage/docs/01-twitter.jpeg" class="img-responsive img-rounded">
+2. Fill all the required fields and remember, your callback URL is: `http://yourdomain.com/auth/socialite/login/twitter`.
+3. After your Twitter app created, click **Keys and Access Tokens** to get your **APP ID** and **APP Secret**.
+<img src="/storage/docs/02-twitter.jpeg" class="img-responsive img-rounded">
