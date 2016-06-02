@@ -38,8 +38,13 @@
         </a>
     </li>
     <li>
-        <a href="/docs/helpers" title="Helpers">
-            <i class="fa fa-circle-o"></i> <span>Helpers</span>
+        <a href="/docs/lucy-classes" title="Lucy Classes">
+            <i class="fa fa-circle-o"></i> <span>Lucy Classes</span>
+        </a>
+    </li>
+    <li>
+        <a href="/docs/helpers" title="Lucy Helpers">
+            <i class="fa fa-circle-o"></i> <span>Lucy Helpers</span>
         </a>
     </li>
 </ul>

@@ -1,25 +1,27 @@
 # Settings
 
-- [Settings](#settings)
-    - [Socialite](#socialite)
-        - [Facebook](#socialite-facebook)
-        - [Google +](#socialite-google)
-        - [Twitter](#socialite-twitter)
+- [Introduction](#introduction)
+- [Socialite](#socialite)
+    - [Facebook](#socialite-facebook)
+    - [Google +](#socialite-google)
+    - [Twitter](#socialite-twitter)
 
-<a name="settings"></a>
+<a name="introduction"></a>
 ## Introduction
 
 Make sure you have a knowledge about Laravel configuration, you can find that [here](https://laravel.com/docs/5.2/configuration).
 
+Lucy has dynamic configurations / settings that you can find in **Settings** menu. Feel free to setting your app.
+
 <a name="socialite"></a>
-### Socialite
+## Socialite
 
 Integrate your authentication with popular social media like **Facebook**, **Google+**, and **Twitter**. Just switch on and fill your social media app credentials.
 
 Here, we will show you how to get the social media app credentials.
 
 <a name="socialite-facebook"></a>
-#### Facebook
+### Facebook
 
 You can find a detailed explanation from Facebook [here](https://developers.facebook.com/docs/apps/register). Or you can follow our steps:
 
@@ -35,7 +37,7 @@ You can find a detailed explanation from Facebook [here](https://developers.face
 <img src="/storage/docs/05-fb.jpeg" class="img-responsive img-rounded">
 
 <a name="socialite-google"></a>
-#### Google+
+### Google+
 
 In order to get Google **APP ID ** and **APP Secret**, you must have a **Google Account**.
 
@@ -63,7 +65,7 @@ In order to get Google **APP ID ** and **APP Secret**, you must have a **Google 
 <img src="/storage/docs/11-google.jpeg" class="img-responsive img-rounded">
 
 <a name="socialite-twitter"></a>
-#### Twitter
+### Twitter
 
 1. Go to [https://apps.twitter.com/](https://apps.twitter.com/) and click **Create New App**.
 <img src="/storage/docs/01-twitter.jpeg" class="img-responsive img-rounded">
