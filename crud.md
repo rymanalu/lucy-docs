@@ -34,4 +34,4 @@ One thing you should before delete a module, make sure you have dropped the tabl
 
 And if you sure want to delete, just click **Delete** button and click **Continue**.
 
-Lucy will delete all your module's files.
+Lucy will delete all your module's files and the permissions.
