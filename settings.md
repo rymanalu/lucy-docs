@@ -11,6 +11,7 @@
     - [Throttling](#authentication-throttling)
 - [Registration](#registration)
 - [Mail](#mail)
+- [Profile](#profile)
 
 <a name="introduction"></a>
 ## Introduction
@@ -124,3 +125,10 @@ Mail settings section provide the easiest way to set your app mail configuration
 > **Note:** Since sending e-mail messages can drastically lengthen the response time of your application, many developers choose to queue e-mail messages for background sending. Set the **Use Queue?** to YES to enabling this feature.
 
 <img src="/storage/docs/mail-settings.jpeg" class="img-responsive img-rounded">
+
+<a name="profile"></a>
+## Profile
+
+You can update your profile account by click your name at top right corner of your app and click **Profile**.
+
+<img src="/storage/docs/profile-settings.jpeg" class="img-responsive img-rounded">

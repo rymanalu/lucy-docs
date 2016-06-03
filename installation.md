@@ -1,15 +1,11 @@
 # Installation
 
-- [Installation](#installation)
-    - [Server Requirements](#server-requirements)
-    - [Installing Lucy](#installing-lucy)
-    - [Application URL](#application-url)
-
-<a name="installation"></a>
-## Installation
+- [Server Requirements](#server-requirements)
+- [Installing Lucy](#installing-lucy)
+- [Application URL](#application-url)
 
 <a name="server-requirements"></a>
-### Server Requirements
+## Server Requirements
 
 Before we begin, make sure your server meets the following requirements:
 
@@ -20,7 +16,7 @@ Before we begin, make sure your server meets the following requirements:
 - Tokenizer PHP Extension
 
 <a name="installing-lucy"></a>
-### Installing Lucy
+## Installing Lucy
 
 First, download Lucy and extract it into your web server folder (example for Apache: `/var/www/html`). After that, create the database in **MySQL**.  Let's say, you create the database named **lucy**.
 
@@ -59,7 +55,7 @@ First, download Lucy and extract it into your web server folder (example for Apa
    ```
 
 <a name="application-url"></a>
-### Application URL
+## Application URL
 
 Because Laravel only allow HTTP access to `public` folder, you must change the document root inside **nginx** or **Apache** configuration files, to point to your `public` directory.
 

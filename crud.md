@@ -8,7 +8,7 @@
 ## Introduction
 One of main features in Lucy is CRUD Generator.
 
-The Generator generates all the file you need (migration, model, request, controller, view, and route) like when you create CRUD manually and of course in Laravel way. Plus, it will automatically create new [permissions](/docs/permissions).
+The Generator generates all the file you need (migration, model, request, controller, view, and route) like when you create CRUD manually and of course in Laravel way. Plus, it will automatically create new [**permissions**](/docs/permissions).
 
 For your information, this feature is just only a starter to help you create a new CRUD faster. And after that, you can freely custom your created CRUD.
 
