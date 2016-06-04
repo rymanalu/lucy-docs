@@ -40,7 +40,7 @@ For your information, this feature is just only a starter to help you create a n
 <a name="delete"></a>
 ## Delete a Module
 
-One thing you should before delete a module, make sure you have dropped the table of the module.
+One thing you should before delete a module, make sure you have dropped the table of the module (do not forget to always use migration).
 
 And if you sure want to delete, just click **Delete** button and click **Continue**.
 

@@ -12,7 +12,7 @@ Lucy comes with 2 default roles: **Administrator** and **User**.
 
 <img src="/storage/docs/01-roles.jpeg" class="img-responsive img-rounded">
 
-> **Note:** Lucy's roles cannot be deleted from UI. Custom created roles can be deleted without any problem.
+> **Note:** Lucy's default roles cannot be deleted from UI. Custom created roles can be deleted without any problem.
 
 <a name="manage-roles"></a>
 ## Manage Roles

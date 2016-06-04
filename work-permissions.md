@@ -66,7 +66,7 @@ Applying permissions in route is so easy. Follow this example:
 
 // Just use the LucyRoute class, and define your URI, controller with method name,
 // and pass the permission name in third argument.
-// In this example, when user want to view users list, the user must have "users.view" permission.
+// In this example, when user want to view users list, the user must has "users.view" permission.
 LucyRoute::get('users', 'UserController@index', 'users.view');
 
 // Other routes...

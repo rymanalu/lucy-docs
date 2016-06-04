@@ -10,7 +10,7 @@ Permissions represent some concrete actions that specific [**role**](/docs/roles
 
 This means that, for example, you can create a role called `Manager`, and allow managers to only create a bew users, without them being able to update general settings, etc.
 
-> **Note:** Lucy's permissions and all created [**modules**](/docs/crud) cannot be deleted from UI. Custom created permissions can be deleted without any problem.
+> **Note:** Lucy's default permissions and all created [**modules**](/docs/crud) cannot be deleted from UI. Custom created permissions can be deleted without any problem.
 
 <img src="/storage/docs/01-permissions.jpeg" class="img-responsive img-rounded">
 
