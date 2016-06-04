@@ -122,7 +122,9 @@ Registration settings section covers your app registration configuration.
 
 Mail settings section provide the easiest way to set your app mail configurations. Feel free to setting this section. 
 
-> **Note:** Since sending e-mail messages can drastically lengthen the response time of your application, many developers choose to queue e-mail messages for background sending. Set the **Use Queue?** to YES to enabling this feature.
+> **Note:** Since sending e-mail messages can drastically lengthen the response time of your application, many developers choose to queue e-mail messages for background sending. Set the **Use Queue?** to YES to enabling this feature. Click [here](https://laravel.com/docs/5.2/queues) for detailed explanation about **Queues**.
+
+> **Note:** Read the [docs](https://laravel.com/docs/5.2/queues#running-the-queue-listener) about how to run the queues.
 
 <img src="/storage/docs/mail-settings.jpeg" class="img-responsive img-rounded">
 
