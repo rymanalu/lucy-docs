@@ -26,6 +26,16 @@ For your information, this feature is just only a starter to help you create a n
 3. Click **Save**. It will take seconds to generate all files and migrate the table. You will see this if module successfully created:
 <img src="/storage/docs/03-crud.jpeg" class="img-responsive img-rounded">
 4. Click **Go to Module** button to see your created CRUD.
+5. The files of your module will saved in path like this:
+
+   File | Path
+   --- | ---
+   Migration | `/lucy_path/database/migrations/2016_06_12_120616_create_authors_table.php`
+   Model | `/lucy_path/app/Models/Modules/Author.php`
+   Request | `/lucy_path/app/Http/Requests/Modules/AuthorRequest.php`
+   Controller | `/lucy_path/app/Http/Controllers/Modules/AuthorController.php`
+   Route | `/lucy_path/app/Http/Routes/authors_route.php`
+   Views | `/lucy_path/resources/views/modules/authors/form.blade.php`, `/lucy_path/resources/views/modules/authors/index.blade.php`, `/lucy_path/resources/views/modules/authors/view.blade.php`
 
 <a name="delete"></a>
 ## Delete a Module

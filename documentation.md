@@ -33,18 +33,8 @@
     </li>
     <li class="header">DEVELOPER GUIDES</li>
     <li>
-        <a href="/docs/crud-classes" title="CRUD Classes">
-            <i class="fa fa-circle-o"></i> <span>CRUD Classes</span>
-        </a>
-    </li>
-    <li>
-        <a href="/docs/lucy-classes" title="Lucy Classes">
-            <i class="fa fa-circle-o"></i> <span>Lucy Classes</span>
-        </a>
-    </li>
-    <li>
-        <a href="/docs/helpers" title="Lucy Helpers">
-            <i class="fa fa-circle-o"></i> <span>Lucy Helpers</span>
+        <a href="/docs/work-permissions" title="Working with Permissions">
+            <i class="fa fa-circle-o"></i> <span>Working with Permissions</span>
         </a>
     </li>
 </ul>
