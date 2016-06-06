@@ -37,4 +37,9 @@
             <i class="fa fa-circle-o"></i> <span>Working with Permissions</span>
         </a>
     </li>
+    <li>
+        <a href="/docs/logging-activities" title="Logging Activities">
+            <i class="fa fa-circle-o"></i> <span>Logging Activities</span>
+        </a>
+    </li>
 </ul>
