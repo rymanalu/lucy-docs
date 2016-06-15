@@ -18,7 +18,7 @@ Before we begin, make sure your server meets the following requirements:
 <a name="installing-lucy"></a>
 ## Installing Lucy
 
-First, download Lucy and extract it into your web server folder (example for Apache: `/var/www/html`). After that, create the database in **MySQL**.  Let's say, you create the database named **lucy**.
+First, download Lucy and extract it into your web server folder (example for Apache: `/var/www/html`). After that, create the database in **MySQL** (**mysql**) or **PostgreSQL** (**pgsql**).  Let's say, you create the database named **lucy**.
 
 1. Welcome Screen
 
