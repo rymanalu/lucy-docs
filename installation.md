@@ -3,6 +3,7 @@
 - [Server Requirements](#server-requirements)
 - [Installing Lucy](#installing-lucy)
 - [Application URL](#application-url)
+    - [Shared Hosting](#application-url-shared-hosting)
 
 <a name="server-requirements"></a>
 ## Server Requirements
@@ -63,3 +64,47 @@ And here is the references that will help you:
 - [Apache](http://stackoverflow.com/questions/5891802/how-do-i-change-the-root-directory-of-an-apache-server)
     - [Create Apache Virtual Host](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
 - [nginx](http://nginx.org/en/docs/beginners_guide.html)
+
+<a name="application-url-shared-hosting"></a>
+### Shared Hosting
+
+But, what if you are hosting your application on some shared hosting and you are not able to change your document root? In that case, you will have to modify some application files.
+
+Lets say that you want to upload your application to some shared hosting. Typically, there will be an `public_html` directory where you would upload your application since everything that's inside that directory will be accessible via HTTP.
+
+1. Upload Lucy
+
+   So, in this case, the best way is to upload Lucy application into it's own folder that is **one level** above the `public_html` folder. In that case, your directory structure will look something like this:
+   ```
+   .
+   ..
+   /Lucy
+   /public_html
+   /other_folder
+   ```
+   In this case, we have uploaded our whole Lucy app into `Lucy` folder that is on the same level as your `public_html` folder, and it is not accessible from your browser.
+
+2. Copy `public` files
+
+   Now you need to copy everything from Lucy's `public` folder to `public_html` folder on your server (you can remove `Lucy/public` folder after moving those files).
+   This will allow us to change the name and location of public folder for our application.
+
+3. Update index.php file
+
+   The final step is to update the `index.php` file you have copied from `public` to `public_html` directory. So, go to `public_html` and edit `index.php` file and update it as following:
+   ```
+   // Update path to autoload.php file...
+   require __DIR__.'/../Lucy/bootstrap/autoload.php';
+
+   // Update path to app.php file...
+   $app = require_once __DIR__.'/../Lucy/bootstrap/app.php';
+
+   // This line should be added right after previous line where $app variable 
+   // is defined and it is used to tell Laravel where your public folder is now. 
+   // Do not change it, just copy and paste it!
+   $app->instance('path.public', __DIR__);
+
+   // Leave the rest unchanged...
+   ```
+
+   And that's it, Lucy application will now be available at `yourdomain.com`, and all application files will be secured.
