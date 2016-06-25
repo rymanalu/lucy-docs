@@ -20,7 +20,7 @@ For your information, this feature is just only a starter to help you create a n
 2. Fill all the required fields and build the table schema like this:
 <img src="/storage/docs/02-crud.jpeg" class="img-responsive img-rounded">
 
-   > **Note:** The primary key of your table is automatically created and the name is `id`.
+   > **Note:** The primary key of your table (`id`), `created_at` and `updated_at` column, automatically created by the Generator.
    
    > **Note:** The **Length**, **Default**, and **Comment** field is optional.
 3. Click **Save**. It will take seconds to generate all files and migrate the table. You will see this if module successfully created:
