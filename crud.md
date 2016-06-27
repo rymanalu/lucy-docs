@@ -3,6 +3,7 @@
 - [Introduction](#introduction)
 - [Create a new Module](#create)
 - [Delete a Module](#delete)
+- [Relationships](#relationships)
 
 <a name="introduction"></a>
 ## Introduction
@@ -45,3 +46,20 @@ One thing you should before delete a module, make sure you have dropped the tabl
 And if you sure want to delete, just click **Delete** button and click **Continue**.
 
 Lucy will delete all your module's files and the permissions.
+
+<a name="relationships"></a>
+## Relationships
+
+Sometimes when you create a new table, you must create a relationship to another table.
+
+You can easily add a relationship in Lucy's CRUD Generator, by click the "green plus" button. For example, we will create a CRUD named **Books** that have `author_id` column (**MUST INTEGER**) that have a relationship with `authors` table.
+
+<img src="/storage/docs/04-crud.png" class="img-responsive img-rounded">
+
+And then, define the relationship. For this example, we will add a relationship between `books.author_id` and `authors.id`. Click **Save**.
+
+<img src="/storage/docs/05-crud.png" class="img-responsive img-rounded">
+
+When you generate this Books CRUD, Lucy will automatically define the relationship in Book's Model class. And don't forget to define the inverse relation in Author's Model class.
+
+FYI, Laravel have an amazing doc about [Relationships](https://laravel.com/docs/5.2/eloquent-relationships).
