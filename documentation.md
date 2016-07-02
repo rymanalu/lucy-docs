@@ -33,13 +33,18 @@
     </li>
     <li class="header">DEVELOPER GUIDES</li>
     <li>
-        <a href="/docs/work-permissions" title="Working with Permissions">
-            <i class="fa fa-circle-o"></i> <span>Working with Permissions</span>
+        <a href="/docs/helpers" title="Helpers">
+            <i class="fa fa-circle-o"></i> <span>Helpers</span>
         </a>
     </li>
     <li>
         <a href="/docs/logging-activities" title="Logging Activities">
             <i class="fa fa-circle-o"></i> <span>Logging Activities</span>
+        </a>
+    </li>
+    <li>
+        <a href="/docs/work-permissions" title="Working with Permissions">
+            <i class="fa fa-circle-o"></i> <span>Working with Permissions</span>
         </a>
     </li>
 </ul>
