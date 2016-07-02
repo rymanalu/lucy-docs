@@ -19,7 +19,7 @@ For your information, this feature is just only a starter to help you create a n
 1. Open **CRUD Generator** menu and click **Add** button.
 <img src="/storage/docs/01-crud.jpeg" class="img-responsive img-rounded">
 2. Fill all the required fields and build the table schema like this:
-<img src="/storage/docs/02-crud.jpeg" class="img-responsive img-rounded">
+<img src="/storage/docs/02-crud.png" class="img-responsive img-rounded">
 
    > **Note:** The primary key of your table (`id`), `created_at` and `updated_at` column, automatically created by the Generator.
    
