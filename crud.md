@@ -4,6 +4,7 @@
 - [Create a new Module](#create)
 - [Delete a Module](#delete)
 - [Relationships](#relationships)
+- [Create a new Module via Interactive CLI](#create-cli)
 
 <a name="introduction"></a>
 ## Introduction
@@ -63,3 +64,10 @@ And then, define the relationship. For this example, we will add a relationship 
 When you generate this Books CRUD, Lucy will automatically define the relationship in Book's Model class. And don't forget to define the inverse relation in Author's Model class.
 
 FYI, Laravel have an amazing doc about [Relationships](https://laravel.com/docs/5.2/eloquent-relationships).
+
+<a name="create-cli"></a>
+## Create a new Module via Interactive CLI
+
+Since some developers prefered CLI instead of GUI, now we can create a new module via Artisan command. The command require an authentication before creating the module. Just give your email or username in `--login` and you will be asked for the password:
+
+    php artisan lucy:crud Authors --table=authors --login=admin
